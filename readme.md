@@ -3,6 +3,7 @@
 ## Ready Pages
 
 * [Home Page](https://kamuz.github.io/chronos/)
+* [Home Page](https://kamuz.github.io/chronos/shop.html)
 
 ## Requirements
 
