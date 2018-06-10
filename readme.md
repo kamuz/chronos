@@ -2,7 +2,7 @@
 
 ## Ready Pages
 
-* [Home Page](https://kamuz.github.io/chronos/index.html)
+* [Home Page](https://kamuz.github.io/chronos/)
 
 ## Requirements
 
