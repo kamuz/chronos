@@ -5,6 +5,7 @@
 * [Home Page](https://kamuz.github.io/chronos/)
 * [Shop Page](https://kamuz.github.io/chronos/shop.html)
 * [Blog Page](https://kamuz.github.io/chronos/blog.html)
+* [Product Page](https://kamuz.github.io/chronos/product.html)
 
 ## Requirements
 
