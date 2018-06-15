@@ -8429,9 +8429,7 @@ header{
     height: 2px;
     margin-bottom: 8px;
     background-color: #888A88;
-    transition: opacity 500ms, background-color 250ms, -webkit-transform 500ms cubic-bezier(0.6, 0.05, 0.28, 0.91);
-    transition: transform 500ms cubic-bezier(0.6, 0.05, 0.28, 0.91), opacity 500ms, background-color 250ms;
-    transition: transform 500ms cubic-bezier(0.6, 0.05, 0.28, 0.91), opacity 500ms, background-color 250ms, -webkit-transform 500ms cubic-bezier(0.6, 0.05, 0.28, 0.91);
+    transition: transform 1000ms cubic-bezier(0.6, 0.05, 0.28, 0.91), opacity 500ms;
 }
 
 #btn.active {
@@ -8445,18 +8443,15 @@ header{
 }
 
 #btn.active #top {
-    -webkit-transform: translateY(10px) rotate(-135deg);
     transform: translateY(10px) rotate(-135deg);
 }
 
 #btn.active #middle {
     opacity: 0;
-    -webkit-transform: rotate(135deg);
     transform: rotate(135deg);
 }
 
 #btn.active #bottom {
-    -webkit-transform: translateY(-10px) rotate(-45deg);
     transform: translateY(-10px) rotate(-45deg);
 }
 
@@ -8472,7 +8467,7 @@ header{
     height: 100%;
     background-color: #f6f6f6;
     color: #343838;
-    transition: all 350ms cubic-bezier(0.6, 0.05, 0.28, 0.91);
+    transition: all 500ms cubic-bezier(0.6, 0.05, 0.28, 0.91);
 }
 
 #box.active {
@@ -8496,15 +8491,6 @@ header{
 
 #items .item a:hover{
     text-decoration: none;
-}
-
-#btn,
-#btn * {
-    will-change: transform;
-}
-
-#box {
-    will-change: transform, opacity;
 }
 
 /*--------------------------------------------------
