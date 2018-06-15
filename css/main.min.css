@@ -8578,8 +8578,6 @@ footer ul li i{
     padding-top: 60px;
     font-size: 60px;
     margin-bottom: 25px;
-    position: relative;
-    left: 35px;
 }
 
 #home-slideshow .herobox p{
@@ -8588,10 +8586,8 @@ footer ul li i{
     padding: 0 20px;
 }
 
-#home-slideshow .herobox h1,
-#home-slideshow .herobox p,
-#home-slideshow .uk-button{
-    transform: skewX(-20deg) !important;
+#home-slideshow .wrap-hero{
+    transform: skewX(-20deg);
 }
 
 #home-slideshow .herobox .uk-button{
@@ -8600,8 +8596,6 @@ footer ul li i{
     font-size: 14px;
     text-transform: uppercase;
     padding: 15px 40px;
-    position: relative;
-    right: 35px;
 }
 
 #home-slideshow .white-nobg{
