@@ -8885,7 +8885,8 @@ footer ul li i{
 
     h1, h2,
     #home-slideshow .herobox h1,
-    .uk-cover-background h1{
+    .uk-cover-background h1,
+    #another-features h3{
         font-size: 40px;
     }
 
@@ -8896,9 +8897,9 @@ footer ul li i{
 
 
     #home-slideshow .herobox p,
-    p.intro{
+    p.intro,
+    #another-features p{
         font-size: 20px;
-        padding: 0 20px;
     }
 }
 
@@ -8977,11 +8978,13 @@ footer ul li i{
 
     h1, h2,
     #home-slideshow .herobox h1,
-    .uk-cover-background h1{
+    .uk-cover-background h1,
+    #another-features h3{
         font-size: 30px;
     }
 
     #home-slideshow .herobox p,
+    #another-features p,
     p.intro{
         font-size: 18px;
     }
