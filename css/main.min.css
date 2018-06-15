@@ -8579,7 +8579,7 @@ footer ul li i{
     font-size: 60px;
     margin-bottom: 25px;
     position: relative;
-    left: 30px;
+    left: 35px;
 }
 
 #home-slideshow .herobox p{
@@ -8601,7 +8601,7 @@ footer ul li i{
     text-transform: uppercase;
     padding: 15px 40px;
     position: relative;
-    right: 30px;
+    right: 35px;
 }
 
 #home-slideshow .white-nobg{
@@ -8947,8 +8947,8 @@ footer ul li i{
     }
 
     #home-slideshow .herobox{
-        width: 400px;
-        left: 10%;
+        width: 360px;
+        left: 5%;
     }
 
     #home-slideshow .herobox h1{
@@ -9011,6 +9011,6 @@ footer ul li i{
 @media only screen and (max-width: 360px) {
      #home-slideshow .herobox{
         width: 350px;
-        left: 5%;
+        left: 0;
     }
 }
